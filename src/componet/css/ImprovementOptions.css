@@ -1,0 +1,47 @@
+/* src/components/ImprovementOptions.css */
+.improvement-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .improvement-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .improvement-group {
+    margin-bottom: 15px;
+  }
+  
+  .improvement-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .improvement-group input,
+  .improvement-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .improvement-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .improvement-group button:hover {
+    background-color: #FB8C00;
+  }
+  
